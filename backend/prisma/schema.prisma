@@ -66,6 +66,11 @@ model Problem {
   problemSolved ProblemSolved[]
 }
 
+// enum Status {
+//   ACCEPTED
+//   WRONG_ANSWER
+// }
+
 model Submission {
   id            String  @id @default(uuid())
   userId        String
